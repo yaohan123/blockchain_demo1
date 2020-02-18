@@ -23,23 +23,21 @@
 
 1. 查看区块链数据
 
-[http://localhost:8080/scan](http://localhost:8080/scan)
+[http://localhost:8090/scan](http://localhost:8080/scan)
 
 
 2. 创建创世区块
 
-[http://localhost:8080/create](http://localhost:8080/create)
+[http://localhost:8090/create](http://localhost:8080/create)
 
 
 3. 挖矿生成新区块
 
-[http://localhost:8080/mine](http://localhost:8080/mine)
+[http://localhost:8090/mine](http://localhost:8080/mine)
 
 
 4. 查看区块链中存储的业务数据
 
 
-[http://localhost:8080/data](http://localhost:8080/data)
-
-
+[http://localhost:8090/data](http://localhost:8080/data)
 
