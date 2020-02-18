@@ -1,37 +1,20 @@
-# 区块链开源平台
-
-#### 介绍
-区块链技术开源平台
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+区块链开源平台
+介绍
+基于java技术实现的小型区块链网络系统，包含基本的区块链模型结构、PoW共识机制以及完整的点对点网络，多个节点间实时通信，共同实现系统中区块链数据的完整性。
+软件架构
+基于springboot框架开发，目前系统已经对数据层、网络层和共识层进行了简单的实现。
+安装教程
+1. 导入dce-blockchain工程到IDE中，目录结构如下：
+     
+2. 配置maven环境，下载依赖包，可以通过阿里巴巴maven库下载，速度比较快。
+3. 运行系统。
+使用说明
+系统启动后，可通过Postman进行操作，返回json格式的数据。
+1. 查看区块链数据
+http://localhost:8080/scan
+2. 创建创世区块
+http://localhost:8080/create
+3. 挖矿生成新区块
+http://localhost:8080/mine
+4. 查看区块链中存储的业务数据
+http://localhost:8080/data
