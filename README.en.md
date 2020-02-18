@@ -7,7 +7,7 @@
 
 #### 软件架构
 
-基于springboot框架开发，目前系统已经对数据层、网络层和共识层进行了简单的实现。
+基于springboot框架开发，目前系统已经对数据层、网络层和共识层进行了简单的实现。感兴趣的同学，还可以在此基础上继续开发，来实现例如持久层、消息的加密解密、系统账户模型、预言机、侧链技术以及智能合约等区块链系统功能。
 ![区块链架构.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/645542/1581988429511-52e10849-7ad5-4b5f-ac72-9e9ac1855c68.jpeg#align=left&display=inline&height=577&name=%E5%8C%BA%E5%9D%97%E9%93%BE%E6%9E%B6%E6%9E%84.jpg&originHeight=577&originWidth=911&size=123208&status=done&style=none&width=911)
 
 #### 安装教程
