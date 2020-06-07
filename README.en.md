@@ -1,5 +1,5 @@
 
-#### 介绍
+#### 一、介绍
 
 基于java技术实现的小型区块链网络系统，包含基本的区块链模型结构、PoW共识机制以及完整的点对点网络，多个节点间实时通信，共同实现系统中区块链数据的完整性。
 
@@ -12,13 +12,13 @@
 同时本人目前也在开发一套java企业级开源区块链平台框架，待1.0版本完成后，也会发布到码云平台上，敬请关注。
 
 
-#### 软件架构
+#### 二、软件架构
 
 基于springboot框架开发，目前系统已经对数据层、网络层和共识层进行了简单的实现。感兴趣的同学，还可以在此基础上继续开发，来实现例如持久层、消息的加密解密、系统账户模型、预言机、侧链技术以及智能合约等区块链系统功能。
 ![区块链技术架构图.jpg](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9jZG4ubmxhcmsuY29tL3l1cXVlLzAvMjAyMC9qcGVnLzY0NTU0Mi8xNTgwNjUzOTIxNDQ2LTJhNWIyNTcxLThkZDMtNDg1NS04Y2QxLWI1NTUzMmQyMjM2YS5qcGVn?x-oss-process=image/format,png#align=left&display=inline&height=577&name=区块链技术架构图.jpg&originHeight=577&originWidth=911&size=123208&status=done&style=none&width=911)
 
 
-#### 安装教程
+#### 三、安装教程
 
 1. 导入dce-blockchain工程到IDE中，目录结构如下：
 
@@ -27,7 +27,7 @@
 2. 配置maven环境，下载依赖包，可以通过阿里巴巴maven库下载，速度比较快。
 2. 运行系统。
 
-#### 使用说明
+#### 四、使用说明
 
 系统启动后，可通过Postman进行操作，返回json格式的数据。
 
@@ -51,7 +51,7 @@
 
 [http://localhost:8090/data](http://localhost:8080/data)
 
-#### Java区块链技术交流QQ群
+#### 五、Java区块链技术交流QQ群
 
 群文件中有大量区块链技术资料，欢迎进群交流学习：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200607175638946.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZpY3RvcnlfbG9uZw==,size_16,color_FFFFFF,t_70)
