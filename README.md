@@ -9,7 +9,6 @@
 
 喜欢的可以给个star
 
-同时本人目前也在开发一套java企业级开源区块链平台框架，待1.0版本完成后，也会发布到码云平台上，敬请关注。
 
 
 #### 二、软件架构
@@ -25,7 +24,7 @@
      ![工程目录结构.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/645542/1581988673079-004eaa90-51d7-42db-88be-ddde7210a0d3.jpeg#align=left&display=inline&height=335&name=%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.jpg&originHeight=335&originWidth=202&size=23333&status=done&style=none&width=202)
 
 2. 配置maven环境，下载依赖包，可以通过阿里巴巴maven库下载，速度比较快。
-2. 运行系统。
+3. 运行系统（具体打包运行方式，详见博客教程）。
 
 #### 四、使用说明
 
