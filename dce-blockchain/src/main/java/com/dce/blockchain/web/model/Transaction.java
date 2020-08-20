@@ -11,14 +11,10 @@ import java.io.Serializable;
 public class Transaction implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	/**
-	 * 唯一标识
-	 */
-	private String id;
-	/**
-	 * 业务数据
-	 */
-	private String businessInfo;
+
+	private String id; //唯一标识
+
+	private String businessInfo; //业务数据
 	
 	public String getId() {
 		return id;
