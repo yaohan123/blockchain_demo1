@@ -35,7 +35,7 @@ public class BlockController {
 	}
 	
 	/**
-	 * 查看当前节点区块链数据
+	 * 查看当前节点区块链的所有数据块
 	 * @return
 	 */
 	@GetMapping("/data")

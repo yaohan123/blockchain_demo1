@@ -3,7 +3,7 @@ package com.dce.blockchain.web.util;
 /**
  * 常量工具类
  * 
- * @author JaredJia
+ * @author yaohan
  *
  */
 public class BlockConstant {

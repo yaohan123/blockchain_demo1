@@ -20,7 +20,7 @@ import com.dce.blockchain.websocket.P2PServer;
 /**
  * p2p网络服务类
  * 
- * @author Jared Jia
+ * @author yaohan
  *
  */
 @Service
@@ -152,7 +152,8 @@ public class P2PService implements ApplicationRunner {
 	 * @param message
 	 */
 	public void broatcast(String message) {
-		List<WebSocket> socketsList = this.getSockets();
+		//1、向谁广播
+		List<WebSocket> socketsList = this.getSockets();  //获取当前节点的socket对象，即当前节点与所有节点的socket集合
 		if (CollectionUtils.isEmpty(socketsList)) {
 			return;
 		}

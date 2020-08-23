@@ -3,7 +3,7 @@ package com.dce.blockchain.web.model;
 import java.io.Serializable;
 
 /**
- * 业务数据模型
+ * 业务数据模型，即一个区块中包含的数据块单元
  * 
  * @author Jared Jia
  *

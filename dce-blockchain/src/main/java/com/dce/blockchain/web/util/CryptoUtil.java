@@ -8,7 +8,7 @@ import org.springframework.util.DigestUtils;
 /**
  * 密码学工具类
  * 
- * @author Jared Jia
+ * @author yaohan
  *
  */
 public class CryptoUtil {
@@ -19,12 +19,17 @@ public class CryptoUtil {
 	 * @return
 	 */
 	public static String SHA256(String str) {
-		MessageDigest messageDigest;
+		MessageDigest messageDigest; //Java自带的加密类MessageDigest类（加密MD5和SHA）
 		String encodeStr = "";
 		try {
+			//1、对象初始化。得到指定算法的MessageDigest对象
 			messageDigest = MessageDigest.getInstance("SHA-256");
-			messageDigest.update(str.getBytes("UTF-8"));
-			encodeStr = byte2Hex(messageDigest.digest());
+
+			//2、更新数据。将输入字符串转化为字节数组，使用该byte数组更新摘要。
+			messageDigest.update(str.getBytes("UTF-8")); //string.getBytes("utf-8")    public void update(byte[] input)
+
+			//3、调用digest() 方法完成哈希计算
+			encodeStr = byte2Hex(messageDigest.digest());//public byte[] digest() 通过执行诸如填充之类的最终操作完成哈希计算。在调用此方法之后，摘要被重置。
 		} catch (Exception e) {
 			System.out.println("getSHA256 is error" + e.getMessage());
 		}

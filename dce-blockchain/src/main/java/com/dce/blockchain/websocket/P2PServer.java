@@ -13,7 +13,7 @@ import com.dce.blockchain.web.service.P2PService;
 /**
  * p2p服务端
  * 
- * @author Jared Jia
+ * @author yaohan
  *
  */
 @Component
@@ -22,7 +22,9 @@ public class P2PServer {
 	@Autowired
 	P2PService p2pService;
 
+	//根据端口号初始化Server
 	public void initP2PServer(int port) {
+
 		WebSocketServer socketServer = new WebSocketServer(new InetSocketAddress(port)) {
 
 			/**

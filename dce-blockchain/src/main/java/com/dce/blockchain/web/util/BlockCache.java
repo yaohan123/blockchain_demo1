@@ -16,7 +16,8 @@ public class BlockCache {
 	/**
 	 * 当前节点的区块链结构
 	 */
-	private List<Block> blockChain = new CopyOnWriteArrayList<Block>();
+	private List<Block> blockChain = new CopyOnWriteArrayList<Block>();  //创建一个链式结构对象，按照先后顺序来保存区块对象，从来形成一个有序的区块链表，考虑到线程安全问题，采用CopyOnWriteArrayList来实现
+
 
 	/**
 	 * 已打包保存的业务数据集合

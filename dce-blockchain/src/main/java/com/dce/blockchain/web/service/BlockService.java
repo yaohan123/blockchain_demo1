@@ -15,7 +15,7 @@ import com.dce.blockchain.web.util.CryptoUtil;
 /**
  * 区块链核心服务
  * 
- * @author Jared Jia
+ * @author yaohan
  *
  */
 @Service
@@ -67,7 +67,7 @@ public class BlockService {
 		//时间戳
 		block.setTimestamp(System.currentTimeMillis());
 		block.setTransactions(blockTxs);
-		//工作量证明，计算正确hash值的次数
+		//工作量证明，计算得到正确hash值所用的次数
 		block.setNonce(nonce);
 		//上一区块的哈希
 		block.setPreviousHash(previousHash);
@@ -122,7 +122,7 @@ public class BlockService {
 	}
 	
 	/**
-	 * 验证hash值是否满足系统条件
+	 * 验证hash值是否满足系统条件，即是否能成功挖矿
 	 * 
 	 * @param hash
 	 * @return
@@ -177,7 +177,7 @@ public class BlockService {
 	}
 
 	/**
-	 * 计算区块的hash
+	 * 计算区块的hash，即包含区块所有信息后得到一个hash值
 	 * 
 	 * @param previousHash
 	 * @param currentTransactions

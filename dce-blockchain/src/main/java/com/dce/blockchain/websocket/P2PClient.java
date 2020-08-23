@@ -13,7 +13,7 @@ import com.dce.blockchain.web.service.P2PService;
 /**
  * p2p客户端
  * 
- * @author Jared Jia
+ * @author yaohan
  *
  */
 @Component
@@ -22,6 +22,7 @@ public class P2PClient {
 	@Autowired
 	P2PService p2pService;
 
+	//建立连接
 	public void connectToPeer(String addr) {
 		try {
 			final WebSocketClient socketClient = new WebSocketClient(new URI(addr)) {

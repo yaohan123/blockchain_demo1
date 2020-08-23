@@ -5,20 +5,16 @@ import java.io.Serializable;
 /**
  * p2p通讯消息
  *
- * @author Jared Jia
+ * @author yaohan
  * 
  */
 public class Message implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
-	/**
-	 * 消息类型
-	 */
-	private int type;
-	/**
-	 * 消息内容
-	 */
-	private String data;
+
+	private int type; //消息类型
+
+	private String data; //消息内容
 
 	public Message() {
 	}
